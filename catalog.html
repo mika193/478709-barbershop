@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <nav class="main-navigation">
         <a href="index.html" class="main-header-logo">
@@ -42,27 +45,27 @@
             <legend>Производители:</legend>
             <ul>
               <li>
-                <input class="visually-hidden" id="manufacturer-1" name="Baxter-of-California" type="checkbox"  checked>
+                <input class="filter-input visually-hidden" id="manufacturer-1" name="Baxter-of-California" type="checkbox"  checked>
                 <label for="manufacturer-1">Baxter of California</label>
               </li>
               <li>
-                <input class="visually-hidden" id="manufacturer-2" name="Mr-Natty" type="checkbox">
+                <input class="filter-input visually-hidden" id="manufacturer-2" name="Mr-Natty" type="checkbox">
                 <label for="manufacturer-2">Mr Natty</label>
               </li>
               <li>
-                <input class="visually-hidden" id="manufacturer-3" name="Suavecito" type="checkbox"  checked>
+                <input class="filter-input visually-hidden" id="manufacturer-3" name="Suavecito" type="checkbox"  checked>
                 <label for="manufacturer-3">Suavecito</label>
               </li>
               <li>
-                <input class="visually-hidden" id="manufacturer-4" name="Malin+Goetz" type="checkbox">
+                <input class="filter-input visually-hidden" id="manufacturer-4" name="Malin+Goetz" type="checkbox">
                 <label for="manufacturer-4">Malin+Goetz</label>
               </li>
               <li>
-                <input class="visually-hidden" id="manufacturer-5" name="Murray’s" type="checkbox">
+                <input class="filter-input visually-hidden" id="manufacturer-5" name="Murray’s" type="checkbox">
                 <label for="manufacturer-5">Murray&#8217;s</label>
               </li>
               <li>
-                <input class="visually-hidden" id="manufacturer-6" name="American-Crew" type="checkbox"  checked>
+                <input class="filter-input visually-hidden" id="manufacturer-6" name="American-Crew" type="checkbox"  checked>
                 <label for="manufacturer-6">American Crew</label>
               </li>
             </ul>
@@ -71,15 +74,15 @@
             <legend>Группы товаров</legend>
             <ul>
               <li>
-                <input class="visually-hidden" id="product-1" name="product-check" type="radio" value="shaving-accessories">
+                <input class="filter-input visually-hidden" id="product-1" name="product-check" type="radio" value="shaving-accessories">
                 <label for="product-1">Бритвенные принадлежности</label>
               </li>
               <li>
-                <input class="visually-hidden" id="product-2" name="product-check" type="radio" value="means-for-care" checked>
+                <input class="filter-input visually-hidden" id="product-2" name="product-check" type="radio" value="means-for-care" checked>
                 <label for="product-2">Средства для ухода</label>
               </li>
               <li>
-                <input class="visually-hidden" id="product-3" name="product-check" type="radio" value="accessories">
+                <input class="filter-input visually-hidden" id="product-3" name="product-check" type="radio" value="accessories">
                 <label for="product-3">Аксессуары</label>
               </li>
             </ul>
